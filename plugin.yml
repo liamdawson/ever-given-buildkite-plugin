@@ -1,0 +1,9 @@
+name: Ever Given
+description: Blocks the pipeline for a week (by default)
+author: https://github.com/liamdawson
+requirements: []
+configuration:
+  additionalProperties: false
+  properties:
+    delay:
+      type: number

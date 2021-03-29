@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+delay="${BUILDKITE_PLUGIN_EVER_GIVEN_DELAY:-$(( 7 * 24 * 60 * 60 ))}"
+
+sleep "$delay"
